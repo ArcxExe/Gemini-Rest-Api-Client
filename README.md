@@ -30,3 +30,6 @@ MY_API={API_KEY}
 
 Из контекста получить Bean - GeminiService и вызвать метод ask - и как раз в него передать текст для модели 
 
+## Как получить Google Ai Studio Api Key
+
+Перейти на сайт Google Ai Studio - https://aistudio.google.com/api-keys. Нажать на Create API Keys
