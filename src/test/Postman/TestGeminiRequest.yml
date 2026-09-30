@@ -1,0 +1,22 @@
+info:
+  name: TestGeminiRequest
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "{{path}}v1/request"
+  body:
+    type: json
+    data: |-
+      {
+        "prompt:" "Привет"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
