@@ -1,4 +1,4 @@
-package org.arcx.gemini.config;
+package org.arcx.gemini.integration.config;
 
 
 import org.springframework.beans.factory.annotation.Value;

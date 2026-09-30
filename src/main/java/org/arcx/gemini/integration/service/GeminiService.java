@@ -1,7 +1,7 @@
-package org.arcx.gemini.service;
+package org.arcx.gemini.integration.service;
 
-import org.arcx.gemini.dto.GeminiRequest;
-import org.arcx.gemini.dto.GeminiResponse;
+import org.arcx.gemini.integration.dto.GeminiRequest;
+import org.arcx.gemini.integration.dto.GeminiResponse;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatusCode;

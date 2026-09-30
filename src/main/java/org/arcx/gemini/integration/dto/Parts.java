@@ -1,8 +1,8 @@
-package org.arcx.gemini.dto;
+package org.arcx.gemini.integration.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(ignoreUnknown = true)
-public record Candidates(Content content) { }
+public record Parts(String text) { }

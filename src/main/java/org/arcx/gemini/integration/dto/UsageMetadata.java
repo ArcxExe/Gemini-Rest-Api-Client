@@ -1,4 +1,4 @@
-package org.arcx.gemini.dto;
+package org.arcx.gemini.integration.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
