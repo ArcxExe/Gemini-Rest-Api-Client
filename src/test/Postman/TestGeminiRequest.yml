@@ -10,7 +10,7 @@ http:
     type: json
     data: |-
       {
-        "prompt:" "Привет"
+        "prompt": "Привет"
       }
   auth: inherit
 
