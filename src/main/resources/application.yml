@@ -1,5 +1,9 @@
+spring:
+  config:
+    import: "optional:file:.env[.properties]"
+
 gemini:
   base_url: https://generativelanguage.googleapis.com/v1beta/
   model: gemini-2.5-flash-lite
-  api-key: YOU_API_KEY
+  api_key: ${MY_API}
   
