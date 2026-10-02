@@ -6,6 +6,9 @@
         <ConnektScriptState>
           <option name="fileUrl" value="file://$PROJECT_DIR$/src/request.connekt.kts" />
         </ConnektScriptState>
+        <ConnektScriptState>
+          <option name="fileUrl" value="file://$APPLICATION_CONFIG_DIR$/consoles/Connekt/generated-requests.connekt.kts" />
+        </ConnektScriptState>
       </list>
     </option>
   </component>
