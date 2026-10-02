@@ -24,6 +24,9 @@ dependencies {
     runtimeOnly("io.jsonwebtoken:jjwt-impl:0.12.6")
     runtimeOnly("io.jsonwebtoken:jjwt-jackson:0.12.6")
 
+    // Swagger UI
+    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0")
+
     implementation("com.fasterxml.jackson.core:jackson-databind") // for JSON
 
     implementation("org.springframework.boot:spring-boot-starter-web")
