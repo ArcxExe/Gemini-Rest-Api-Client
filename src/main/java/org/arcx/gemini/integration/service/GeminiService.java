@@ -25,7 +25,7 @@ public class GeminiService {
         this.restClient = geminiRestClient;
     }
 
-    public String ask(String prompt){
+    public GeminiResponse ask(String prompt){
         log.info("Отправка запроса к Gemini Api: model: {} " , model);
         log.debug("Prompt: {}", prompt);
         GeminiRequest request = GeminiRequest.ofText(prompt);
@@ -40,6 +40,6 @@ public class GeminiService {
                 }) // Обработка ошибок , если они есть
                 .body(GeminiResponse.class);
         log.info("Успешный запрос к Gemini API");
-        return response != null ? response.getText() : "";
+        return response;
     }
 }

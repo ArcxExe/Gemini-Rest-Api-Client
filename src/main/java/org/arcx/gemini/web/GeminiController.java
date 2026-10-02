@@ -20,7 +20,7 @@ public class GeminiController {
 
     @PostMapping("/request")
     public AnswerResponse requestForApi(@RequestBody PromptRequest prompt) {
-        return new AnswerResponse(geminiService.ask(prompt.prompt()));
+        return new AnswerResponse(geminiService.ask(prompt.prompt()).getText());
 
     }
     
